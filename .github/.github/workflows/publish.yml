@@ -15,7 +15,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@omaromeiri'
       - run: npm install
-      - run: npm run test
+      # - run: npm run test
       - uses: actions/delete-package-versions@v2
         with:
           package-name: 'faker'
