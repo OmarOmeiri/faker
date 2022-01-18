@@ -1,5 +1,5 @@
 {
-  "name": "faker",
+  "name": "@omaromeiri/faker",
   "description": "Generate massive amounts of fake contextual data",
   "version": "5.5.3",
   "contributors": [
@@ -7,7 +7,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/Marak/Faker.js.git"
+    "url": "http://github.com/OmarOmeiri/faker.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/omaromeiri"
   },
   "scripts": {
     "browser": "./node_modules/.bin/gulp browser",
